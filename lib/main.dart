@@ -9,7 +9,7 @@ import 'pages/favorites_page.dart';
 void main() {
   runApp(const AnimeApp());
 }
-
+// Widget utama aplikasi yang mengatur tema, judul, dan halaman awal.
 class AnimeApp extends StatelessWidget {
   const AnimeApp({super.key});
 
@@ -27,7 +27,8 @@ class AnimeApp extends StatelessWidget {
     );
   }
 }
-
+// Mengatur tiga halaman utama (Home, Genre, Favorite)
+// dan navigasi antar halaman menggunakan NavigationBar.
 class RootScreen extends StatefulWidget {
   const RootScreen({super.key});
 
@@ -46,12 +47,12 @@ class _RootScreenState extends State<RootScreen> {
     super.initState();
     _load();
   }
-
+// Memuat data dari repository (anime.json di assets)
   Future<void> _load() async {
     final data = await AnimeRepository.load();
     setState(() => all = data);
   }
-
+// Mengambil seluruh genre unik dari daftar anime
   List<String> get allGenres {
     final s = <String>{};
     for (final a in all) {
@@ -60,7 +61,7 @@ class _RootScreenState extends State<RootScreen> {
     final list = s.toList()..sort();
     return list;
   }
-
+// Navigasi ke halaman detail anime
   void openDetail(Anime a) {
     Navigator.of(context).push(MaterialPageRoute(
       builder: (_) => DetailPage(
@@ -80,7 +81,7 @@ class _RootScreenState extends State<RootScreen> {
       ),
     ));
   }
-
+ // Berpindah ke halaman Genre dan menampilkan genre tertentu
   void openGenre(String g) {
     setState(() {
       selectedGenre = g;
@@ -108,7 +109,7 @@ class _RootScreenState extends State<RootScreen> {
         onOpenDetail: openDetail,
       ),
     ];
-
+// Scaffold utama dengan NavigationBar di bawah
     return Scaffold(
       body: pages[index],
       bottomNavigationBar: NavigationBar(
@@ -123,3 +124,4 @@ class _RootScreenState extends State<RootScreen> {
     );
   }
 }
+
