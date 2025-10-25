@@ -38,7 +38,7 @@ TI-A**
 
   
 
-**  Struktur Folder Proyek**
+** Struktur Folder Proyek**
   
              lib/
              ├─ main.dart
