@@ -22,7 +22,6 @@ TI-A**
 
   Data yang digunakan disimpan dalam file lokal assets/anime.json, kemudian ditampilkan dalam bentuk grid dan list menggunakan widget Flutter seperti GridView, Card, dan ListView.
 
-  
 
 **Tujuan Pengembangan**
 
@@ -36,34 +35,52 @@ TI-A**
 
   Menyusun struktur proyek yang siap untuk dikembangkan lebih lanjut menggunakan API.
 
-  
 
 ** Struktur Folder Proyek**
-  
-             lib/
-             ├─ main.dart
-             ├─ models/
-             │   └─ anime.dart
-             ├─ pages/
-             │   ├─ home_page.dart
-             │   ├─ genre_page.dart
-             │   ├─ detail_page.dart
-             │   └─ favorite_page.dart
-            assets/
-             ├─ anime.json
-             └─ images/
-                 ├─ aot.jpg
-                 ├─ bokunohero.jpg
-                 ├─ chainsaw.jpg
-                 ├─ demon_slayer.jpg
-                 ├─ frieren.jpg
-                 ├─ haikyu.jpg
-                 ├─ jjk.jpg
-                 ├─ kimi_no_nawa.jpg
-                 ├─ mushoku.jpg
-                 ├─ naruto.jpg
-                 ├─ onepiece.jpg
-                 └─ spy.jpg
+
+              anime_app/
+                ├─ .dart_tool/
+                ├─ .idea/
+                ├─ android/
+                ├─ assets/
+                │   ├─ anime.json
+                │   └─ images/
+                │       ├─ aot.jpg
+                │       ├─ bokunohero.jpg
+                │       ├─ chainsaw.jpg
+                │       ├─ demon_slayer.jpg
+                │       ├─ frieren.jpg
+                │       ├─ haikyu.jpg
+                │       ├─ jjk.jpg
+                │       ├─ kimi_no_nawa.jpg
+                │       ├─ mushoku.jpg
+                │       ├─ naruto.jpg
+                │       ├─ onepiece.jpg
+                │       └─ spy.jpg
+                ├─ build/
+                ├─ ios/
+                ├─ lib/
+                │   ├─ main.dart
+                │   ├─ models/
+                │   │   └─ anime.dart
+                │   ├─ pages/
+                │   │   ├─ home_page.dart
+                │   │   ├─ genre_page.dart
+                │   │   ├─ detail_page.dart
+                │   │   └─ favorites_page.dart
+                │   └─ services/
+                │       └─ anime_repository.dart
+                ├─ linux/
+                ├─ macos/
+                ├─ web/
+                ├─ windows/
+                ├─ .gitignore
+                ├─ .metadata
+                ├─ analysis_options.yaml
+                ├─ anime_app.iml
+                ├─ pubspec.yaml
+                ├─ pubspec.lock
+                └─ README.md
 
 **Fitur Aplikasi**
 
@@ -74,5 +91,3 @@ TI-A**
   Detail Page	Menampilkan detail anime: gambar, judul, genre, rating, tahun, dan sinopsis.
   
   Favorite Page	Menampilkan daftar anime yang telah ditandai favorit oleh pengguna.
-
-
