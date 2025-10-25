@@ -1,6 +1,7 @@
+// File ini menampilkan informasi detail mengenai satu anime
 import 'package:flutter/material.dart';
 import '../models/anime.dart';
-
+// Menerima objek Anime, status favorit, dan fungsi toggle favorit.
 class DetailPage extends StatelessWidget {
   final Anime anime;
   final bool isFavorite;
@@ -45,6 +46,7 @@ class DetailPage extends StatelessWidget {
                 ],
               ),
             ),
+            // Tombol favorit di pojok kanan atas
             actions: [
               IconButton(
                 onPressed: onToggleFavorite,
@@ -62,7 +64,7 @@ class DetailPage extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-
+                  //  Baris Genre Anime
                   Row(
                     children: [
                       const Icon(Icons.local_movies_rounded, size: 20),
@@ -77,7 +79,7 @@ class DetailPage extends StatelessWidget {
                   ),
                   const SizedBox(height: 8),
 
-
+                   // Rating dan Tahun Rilis
 
                   Row(
                     children: [
@@ -94,7 +96,7 @@ class DetailPage extends StatelessWidget {
 
                   const SizedBox(height: 16),
 
-
+                      // Sinopsis Anime 
                   const Text(
                     'Sinopsis',
                     style: TextStyle(
@@ -108,7 +110,7 @@ class DetailPage extends StatelessWidget {
                   ),
 
                   const SizedBox(height: 24),
-
+                  // Tombol Favorite
                   Center(
                     child: FilledButton.icon(
                       onPressed: onToggleFavorite,
@@ -131,3 +133,4 @@ class DetailPage extends StatelessWidget {
     );
   }
 }
+
