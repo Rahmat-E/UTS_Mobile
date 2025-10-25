@@ -1,0 +1,110 @@
+[
+  {
+    "id": "aot",
+    "title": "Attack on Titan",
+    "genres": ["Action", "Drama"],
+    "rating": 9.1,
+    "year": 2013,
+    "imageUrl": "assets/images/aot.jpg",
+    "synopsis": "The story centers on Eren Yeager, who lives behind giant walls protecting the last remnants of humanity from man-eating monsters called Titans. After witnessing his mother being devoured before his very eyes, Eren vows revenge and joins the military's Cadet Corps, along with his friends Mikasa Ackerman and Armin Arlert. As the story unfolds, he uncovers the mysteries behind the Titans' existence and the walls that have long hidden the bitter truth about their world."
+  },
+  {
+    "id": "bokunohero",
+    "title": "Boku no Hero Academia",
+    "genres": ["Action", "Shounen"],
+    "rating": 8.3,
+    "year": 2016,
+    "imageUrl": "assets/images/bokunohero.jpg",
+    "synopsis": "In a world where almost everyone possesses a superpower known as a \"Quirk,\" Midoriya Izuku is born without one and is constantly bullied by his childhood friend, Katsuki Bakugo. Despite this, Izuku still dreams of becoming a hero. After a chance encounter with the world's greatest hero, All Might, he inherits a unique Quirk and is eventually accepted into U.A. High School, a top hero academy. There, he must learn to control his powers while battling various threats that test his mental and physical resilience."
+  },
+  {
+    "id": "chainsaw",
+    "title": "Chainsaw Man",
+    "genres": ["Action", "Horror"],
+    "rating": 8.5,
+    "year": 2022,
+    "imageUrl": "assets/images/chainsaw.jpg",
+    "synopsis": "Denji, a young man burdened with debt and living in poverty, works as a devil hunter to pay off his debts. After being betrayed and killed by a devil working for the yakuza, he is resurrected by his pet dog, Pochita, who is a chainsaw devil. The two merge, transforming Denji into Chainsaw Man, a human-devil hybrid with insane abilities. He is then recruited by Makima to join the Public Safety Devil Hunters and begins a new, dangerous life."
+  },
+  {
+    "id": "demon_slayer",
+    "title": "Demon Slayer: Kimetsu no Yaiba",
+    "genres": ["Action", "Fantasy"],
+    "rating": 8.8,
+    "year": 2019,
+    "imageUrl": "assets/images/demon_slayer.jpg",
+    "synopsis": "In Taisho-era Japan, Tanjiro Kamado lives a happy life in the mountains with his family, until one day he discovers his entire family has been slaughtered by a demon. The only survivor is his younger sister, Nezuko, who has now been turned into a demon herself. In his quest to turn Nezuko back into a human and avenge his family, Tanjiro joins the Demon Slayer Corps and embarks on a long, perilous journey."
+  },
+  {
+    "id": "frieren",
+    "title": "Frieren: Beyond Journey's End",
+    "genres": ["Fantasy", "Drama"],
+    "rating": 9.0,
+    "year": 2023,
+    "imageUrl": "assets/images/frierin.jpg",
+    "synopsis": "After a ten-year journey to defeat the Demon King comes to an end, the elven mage Frieren and her hero party disband. Due to her incredibly long lifespan, Frieren considers the adventure to have been just a brief moment in her life. However, the death of the hero Himmel reminds her of how short human lives are. She begins a new journey to learn more about and understand humans, while cherishing the memories of her old friends and dealing with a life that continues to move forward."
+  },
+  {
+    "id": "haikyu",
+    "title": "Haikyuu!!",
+    "genres": ["Sports", "Comedy"],
+    "rating": 8.9,
+    "year": 2014,
+    "imageUrl": "assets/images/haikyu.jpg",
+    "synopsis": " Hinata Shoyo, inspired by the \"Little Giant\" after watching a volleyball match on TV, falls in love with the sport despite his short stature. He enrolls in Karasuno High School's volleyball team and is shocked to find his ultimate rival, Kageyama Tobio, a genius setter, on the same team. The two eventually team up as an unlikely duo, working to restore Karasuno's glory and reach the national championships."
+  },
+  {
+    "id": "jjk",
+    "title": "Jujutsu Kaisen",
+    "genres": ["Action", "Supernatural"],
+    "rating": 8.7,
+    "year": 2020,
+    "imageUrl": "assets/images/jjk.jpg",
+    "synopsis": "Yuji Itadori, a high school student who gets unintentionally involved in the supernatural world, swallows a cursed finger from a powerful Cursed Spirit, Sukuna, to save his friends. As a result, Yuji becomes a vessel for Sukuna and joins Jujutsu High School, where he must learn to use his cursed energy to fight against evil beings called curses, which are born from negative human emotions."
+  },
+  {
+    "id": "kimi_no_nawa",
+    "title": "Your Name (Kimi no Na wa)",
+    "genres": ["Romance", "Drama"],
+    "rating": 8.9,
+    "year": 2016,
+    "imageUrl": "assets/images/kimi_no_nawa.jpg",
+    "synopsis": "Mitsuha Miyamizu, a high school girl from a rural town, dreams of having an exciting life in Tokyo, while Taki Tachibana, a high school boy from Tokyo, lives a busy urban life. Mysteriously, the two of them begin swapping bodies randomly while they sleep, and through the messages they leave for each other, they form a deep bond, even though they live in different time dimensions."
+  },
+  {
+    "id": "mushoku",
+    "title": "Mushoku Tensei: Isekai Ittara Honki Dasu",
+    "genres": ["Fantasy", "Isekai"],
+    "rating": 8.4,
+    "year": 2021,
+    "imageUrl": "assets/images/mushoku.jpg",
+    "synopsis": "A 34-year-old unemployed and jobless man dies in a traffic accident and is reincarnated into a fantasy world. In his new life as Rudeus Greyrat, he is determined to make the most of this second chance and live his life without regrets. With memories from his past life, he starts mastering magic and interacting with the people around him, who help him on his journey toward maturity."
+  },
+  {
+    "id": "naruto",
+    "title": "Naruto",
+    "genres": ["Action", "Adventure"],
+    "rating": 8.3,
+    "year": 2002,
+    "imageUrl": "assets/images/naruto.jpg",
+    "synopsis": "Naruto Uzumaki, a spirited young ninja, has a great ambition to become the leader and strongest ninja in his village, known as the Hokage. However, he must struggle to gain recognition from the villagers who ostracize him because he holds the Nine-Tailed Fox demon inside him. Naruto embarks on his ninja journey, facing various challenges and forming strong friendships to achieve his goal."
+  },
+  {
+    "id": "onepiece",
+    "title": "One Piece",
+    "genres": ["Adventure", "Action"],
+    "rating": 9.0,
+    "year": 1999,
+    "imageUrl": "assets/images/onepiece.jpg",
+    "synopsis": "Monkey D. Luffy, a young boy who ate a Devil Fruit, gains the ability to stretch his body like rubber. Along with his pirate crew, known as the Straw Hat Pirates, Luffy sails the Grand Line in search of the world's greatest treasure, the One Piece, and to fulfill his dream of becoming the Pirate King."
+  },
+  {
+    "id": "spy",
+    "title": "SPY x FAMILY",
+    "genres": ["Comedy", "Slice of Life"],
+    "rating": 8.5,
+    "year": 2022,
+    "imageUrl": "assets/images/spy.jpg",
+    "synopsis": "To carry out a crucial mission that could prevent war between two nations, a master spy named Twilight is tasked with building a fake family. He adopts an orphan girl named Anya who has telepathic abilities and marries an office worker named Yor who is secretly a deadly assassin. Unbeknownst to them, they begin a family life filled with chaos and comedy, while trying to hide their true identities from each other."
+  }
+]
