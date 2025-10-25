@@ -91,3 +91,6 @@ TI-A**
   Detail Page	Menampilkan detail anime: gambar, judul, genre, rating, tahun, dan sinopsis.
   
   Favorite Page	Menampilkan daftar anime yang telah ditandai favorit oleh pengguna.
+
+
+laporan: https://drive.google.com/file/d/1GmSQrrPYWUlXnvm7ubTF8wkmIDT3R4B_/view?usp=sharing
