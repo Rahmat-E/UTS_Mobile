@@ -1,3 +1,6 @@
+// File ini menampilkan daftar genre anime dan daftar anime terbaru.
+// Pengguna dapat memilih genre untuk berpindah ke halaman Genre,
+// atau menekan kartu anime untuk melihat detail anime tersebut.
 import 'package:flutter/material.dart';
 import '../models/anime.dart';
 
@@ -17,12 +20,13 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Jika data anime belum dimuat, tampilkan indikator loading
     if (anime.isEmpty) {
       return const Scaffold(
         body: Center(child: CircularProgressIndicator()),
       );
     }
-
+ // Mengurutkan anime berdasarkan tahun rilis terbaru
     final newest = [...anime]..sort((a, b) => b.year.compareTo(a.year));
     final top8 = newest.take(8).toList();
 
@@ -55,7 +59,7 @@ class HomePage extends StatelessWidget {
           Text('Anime Terbaru', style: Theme.of(context).textTheme.titleLarge),
           const SizedBox(height: 8),
 
-
+// Grid menampilkan daftar anime terbaru
           GridView.builder(
             shrinkWrap: true,
             physics: const NeverScrollableScrollPhysics(),
@@ -153,3 +157,4 @@ class _AnimeCard extends StatelessWidget {
     );
   }
 }
+
