@@ -1,4 +1,5 @@
 class Anime {
+  // Properti utama dari setiap objek Anime
   final String id;
   final String title;
   final List<String> genres;
@@ -6,7 +7,7 @@ class Anime {
   final int year;
   final String imageUrl;
   final String synopsis;
-
+// Konstruktor utama untuk membuat objek Anime
   Anime({
     required this.id,
     required this.title,
@@ -16,7 +17,7 @@ class Anime {
     required this.imageUrl,
     required this.synopsis,
   });
-
+// Factory constructor untuk membuat objek Anime dari JSON
   factory Anime.fromJson(Map<String, dynamic> json) {
     return Anime(
       id: json['id'] as String,
@@ -28,7 +29,7 @@ class Anime {
       synopsis: json['synopsis'] as String,
     );
   }
-
+ // Method untuk mengubah objek Anime kembali ke bentuk JSON
   Map<String, dynamic> toJson() => {
     'id': id,
     'title': title,
@@ -39,3 +40,4 @@ class Anime {
     'synopsis': synopsis,
   };
 }
+
