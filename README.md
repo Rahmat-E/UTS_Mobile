@@ -68,8 +68,11 @@ TI-A**
 **Fitur Aplikasi**
 
   Home Page	Menampilkan daftar genre dan anime terbaru dalam bentuk grid.
+
   Genre Page	Menampilkan daftar anime berdasarkan genre yang dipilih.
+  
   Detail Page	Menampilkan detail anime: gambar, judul, genre, rating, tahun, dan sinopsis.
+  
   Favorite Page	Menampilkan daftar anime yang telah ditandai favorit oleh pengguna.
 
 
