@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/anime.dart';
-
+// Menerima daftar anime favorit dan fungsi navigasi ke halaman detail.
 class FavoritesPage extends StatelessWidget {
   final List<Anime> favorites;
   final void Function(Anime) onOpenDetail;
@@ -16,7 +16,9 @@ class FavoritesPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('Favorites')),
       body: favorites.isEmpty
+      // Jika belum ada anime favorit, tampilkan teks pemberitahuan
           ? const Center(child: Text('Belum ada anime favorit.'))
+      // Jika sudah ada, tampilkan dalam bentuk daftar (ListView)
           : ListView.builder(   
         padding: const EdgeInsets.all(16),
         itemCount: favorites.length,
@@ -32,6 +34,7 @@ class FavoritesPage extends StatelessWidget {
               onTap: () => onOpenDetail(a),
               child: Row(
                 children: [
+                  // Gambar Anime Favorit
                   SizedBox(
                     height: 100,
                     width: 80,
@@ -46,7 +49,7 @@ class FavoritesPage extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(width: 12),
-
+                     // Informasi Anime (Teks)
                   Expanded(
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -84,3 +87,4 @@ class FavoritesPage extends StatelessWidget {
     );
   }
 }
+
