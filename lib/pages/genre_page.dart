@@ -20,7 +20,7 @@ class GenrePage extends StatefulWidget {
 }
 
 class _GenrePageState extends State<GenrePage> {
-  late String selected;
+  late String selected; // Menyimpan genre yang sedang dipilih pengguna
 
   @override
   void initState() {
@@ -30,9 +30,9 @@ class _GenrePageState extends State<GenrePage> {
 
   @override
   Widget build(BuildContext context) {
+    // Filter anime sesuai genre yang dipilih
     final filtered =
     widget.allAnime.where((a) => a.genres.contains(selected)).toList();
-
     return Scaffold(
       appBar: AppBar(
         title: const Text('Kategori / Genre'),
@@ -54,8 +54,6 @@ class _GenrePageState extends State<GenrePage> {
               onChanged: (v) => setState(() => selected = v!),
             ),
           ),
-
-
           Expanded(
             child: filtered.isEmpty
                 ? const Center(child: Text('Tidak ada anime di genre ini.'))
@@ -85,13 +83,12 @@ class _GenrePageState extends State<GenrePage> {
   }
 }
 
-
+// Menampilkan gambar, judul, rating, dan tahun rilis
 class _GenreAnimeCard extends StatelessWidget {
   final Anime anime;
   final VoidCallback onTap;
 
   const _GenreAnimeCard({required this.anime, required this.onTap});
-
   @override
   Widget build(BuildContext context) {
     return InkWell(
@@ -159,3 +156,4 @@ class _GenreAnimeCard extends StatelessWidget {
     );
   }
 }
+
