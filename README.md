@@ -1,13 +1,13 @@
-Rahmat Enomoto
+**Rahmat Enomoto
 230605110010
-TI-A
+TI-A**
 
-AnimeList UTS
+**AnimeList UTS**
 
   Aplikasi mobile sederhana berbasis Flutter untuk menampilkan daftar anime berdasarkan genre dan menandai anime favorit.
   Dibuat sebagai tugas Ujian Tengah Semester (UTS) mata kuliah Mobile Programming — Semester Ganjil 2025/2026.
 
-Deskripsi Singkat
+**Deskripsi Singkat**
 
   AnimeList UTS merupakan aplikasi katalog anime yang menampilkan daftar anime berdasarkan genre tertentu.
   Aplikasi ini dikembangkan menggunakan Flutter framework dengan penerapan konsep:
@@ -24,7 +24,7 @@ Deskripsi Singkat
 
   
 
-Tujuan Pengembangan
+**Tujuan Pengembangan**
 
   Menerapkan konsep dasar Mobile Programming dengan Flutter.
 
@@ -38,7 +38,7 @@ Tujuan Pengembangan
 
   
 
-  Struktur Folder Proyek
+**  Struktur Folder Proyek**
   
              lib/
              ├─ main.dart
@@ -65,7 +65,7 @@ Tujuan Pengembangan
                  ├─ onepiece.jpg
                  └─ spy.jpg
 
-Fitur Aplikasi
+**Fitur Aplikasi**
 
   Home Page	Menampilkan daftar genre dan anime terbaru dalam bentuk grid.
   Genre Page	Menampilkan daftar anime berdasarkan genre yang dipilih.
